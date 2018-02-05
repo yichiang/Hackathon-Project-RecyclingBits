@@ -1,0 +1,185 @@
+/*======================================================================
+// Default styling.
+======================================================================*/
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(47, 73, 58), rgb(164, 255, 202)) !Important;
+  font-family: sans-serif;
+}
+
+p, h3, .form-control, .btn {
+  font-family: sans-serif;
+}
+
+::selection {
+  background-color: #75CDDD;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #75CDDD;
+  color: #fff;
+}
+
+/*======================================================================
+// Header styling.
+======================================================================*/
+.header img {
+  display: block;
+  text-align: center;
+  width: 640px;
+  margin: 20px auto;
+  left: 0px;
+  right: 0px;
+}
+
+/*======================================================================
+// Main body styling.
+======================================================================*/
+.main-body {
+  height: 600px;
+}
+
+/*======================================================================
+// Main button styling.
+======================================================================*/
+input[type="file"] {
+  display: block;
+  width: 500px;
+  outline: none;
+  color: white;
+  background-color: #507B91;
+  font-size: 1.6em;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 80px auto 0px auto;
+  left: 0px;
+  right: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="file"]:hover {
+  background-color: #75CDDD;
+}
+
+.btn {  
+  display: block;
+  height: 100px;
+  width: 240px;
+  outline: none;
+  background-color: #507B91;
+  color: white;
+  font-size: 26px;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 40px auto 0px auto;
+  left: 0px;
+  right: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+  background-color: #75CDDD;
+}
+
+/*======================================================================
+// Error text styling.
+======================================================================*/
+.main-error {
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  margin: 30px auto;
+}
+
+/*======================================================================
+// Image styling.
+======================================================================*/
+.main-confirm img {
+  display: block;
+  object-fit: cover;
+  height: 360px;
+  width: 480px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+}
+
+.main-results img {
+  display: block;
+  object-fit: cover;
+  height: 360px;
+  width: 480px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+}
+
+/*======================================================================
+// Image  detail styling.
+======================================================================*/
+.main-details-item {
+  display: block;
+  text-align: center;
+  margin: 40px auto;
+  font-size: 2em;
+}
+
+/*======================================================================
+// Footer styling.
+======================================================================*/
+.footer {
+  position: relative;
+  padding: 60px 0px 60px 0px;
+  height: 300px;
+  background-color: black;
+}
+
+.footer img {
+  display: block;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.footer p {
+  position: relative;
+  font-size: 150%;
+  text-align: center;
+  color: white;
+}
+
+/*======================================================================
+// Loading circle styling.
+======================================================================*/
+.loader {
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  border: 3px solid #ddd;
+  border-top: 3px solid #42a5f5;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 280px auto 280px auto;
+  background-color: none;
+}
+
+@-webkit-keyframes spin {
+  to {
+    border-top-color: #ec407a;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    border-top-color: #ec407a;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
